@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    border:1px solid black;
+    justify-content: center;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.box-red{
+    background-color: brown;
+}
+.box-green{
+    background-color: green;
+}
+.box-yellow{
+    background-color: yellow;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 640px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+body{
+    background-color: pink;
+}
